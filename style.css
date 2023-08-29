@@ -1,27 +1,28 @@
 @font-face {
   font-family: "allura";
-  src: url(/assets/fonts/Allura-Regular.ttf);
+  src: url(assets/fonts/Allura-Regular.ttf);
 }
 @font-face {
   font-family: "poppins";
-  src: url(/assets/fonts/Poppins-Medium.ttf);
+  src: url(assets/fonts/Poppins-Medium.ttf);
 }
 @font-face {
   font-family: "roboto";
-  src: url(/assets/fonts/Roboto-Light.ttf);
+  src: url(assets/fonts/Roboto-Light.ttf);
 }
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-li, li a {
+li,
+li a {
   list-style: none;
   text-decoration: none;
   color: white;
@@ -48,7 +49,7 @@ header {
   color: white;
   height: 100vh;
   width: 100%;
-  background-image: url(/assets/img/bg-slider-06.jpg);
+  background-image: url(assets/img/bg-slider-06.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -75,11 +76,11 @@ header nav .menu ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 10px;
 }
 header nav .social {
@@ -90,8 +91,8 @@ header nav .social ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 header nav .social ul a {
   font-size: 1.5rem;
@@ -114,7 +115,7 @@ header nav .social ul a {
   background-position: center;
   background-size: cover;
   margin: 35px auto;
-  background-image: url(/assets/img/ic-plate.png);
+  background-image: url(assets/img/ic-plate.png);
 }
 .titre p {
   height: 40px;
@@ -157,7 +158,7 @@ header nav .social ul a {
   background-position: center;
   background-size: cover;
   margin: 35px auto;
-  background-image: url(/assets/img/ic-plategray.png);
+  background-image: url(assets/img/ic-plategray.png);
 }
 .section1 .border .discover p {
   font-family: "poppins", sans-serif;
@@ -165,7 +166,7 @@ header nav .social ul a {
 .section1 .border .discover .russel {
   width: 80px;
   height: 80px;
-  background-image: url(/assets/img/avatar-01.jpg);
+  background-image: url(assets/img/avatar-01.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 50px;
@@ -182,7 +183,7 @@ header nav .social ul a {
 }
 .section1 .cook {
   width: 50%;
-  background-image: url(/assets/img/store-01.jpg);
+  background-image: url(assets/img/store-01.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -197,11 +198,11 @@ header nav .social ul a {
   position: absolute;
   width: 98vw;
   height: 580px;
-  background-image: url(/assets/img/bg-menu-01.jpg);
+  background-image: url(assets/img/bg-menu-01.jpg);
   background-position: center;
   background-size: cover;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   top: 80%;
   left: 50%;
   z-index: -10;
@@ -219,15 +220,15 @@ header nav .social ul a {
   background-position: center;
   background-size: cover;
   margin: 35px auto;
-  background-image: url(/assets/img/ic-plate.png);
+  background-image: url(assets/img/ic-plate.png);
 }
 .section2 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   margin-bottom: 15px;
 }
 .section2 ul li {
@@ -250,11 +251,11 @@ header nav .social ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .section2 .dishes .row .dish {
   display: -webkit-box;
@@ -263,11 +264,11 @@ header nav .social ul a {
   height: 150px;
   width: 50%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: left;
   margin: 15px;
   border-bottom: 2px dotted rgb(163, 119, 60);
@@ -275,7 +276,8 @@ header nav .social ul a {
 .section2 .dishes .row .dish .m {
   width: 55%;
 }
-.section2 .dishes .row .dish .m h4, .section2 .dishes .row .dish .m p {
+.section2 .dishes .row .dish .m h4,
+.section2 .dishes .row .dish .m p {
   font-family: "roboto", sans-serif;
   font-size: 0.9rem;
 }
@@ -320,7 +322,7 @@ header nav .social ul a {
   background-position: center;
   background-size: cover;
   margin: 35px auto;
-  background-image: url(/assets/img/ic-plategray.png);
+  background-image: url(assets/img/ic-plategray.png);
 }
 .section3 .border2 .time .upper {
   color: rgb(163, 119, 60);
@@ -353,7 +355,7 @@ header nav .social ul a {
   background-position: center;
   background-size: cover;
   margin: 35px auto;
-  background-image: url(/assets/img/ic-plategray.png);
+  background-image: url(assets/img/ic-plategray.png);
 }
 .section3 .resa input {
   height: 30px;
@@ -404,7 +406,7 @@ header nav .social ul a {
   background-position: center;
   background-size: cover;
   margin: 35px auto;
-  background-image: url(/assets/img/ic-plate.png);
+  background-image: url(assets/img/ic-plate.png);
 }
 .section4 .party {
   display: -webkit-box;
@@ -427,13 +429,13 @@ header nav .social ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 40%;
-  background-image: url(/assets/img/event-01.jpg);
+  background-image: url(assets/img/event-01.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -442,11 +444,11 @@ header nav .social ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 90px;
   height: 90px;
   background-color: rgb(33, 32, 32);
@@ -506,13 +508,13 @@ header nav .social ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 40%;
-  background-image: url(/assets/img/event-02.jpg);
+  background-image: url(assets/img/event-02.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -521,11 +523,11 @@ header nav .social ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 90px;
   height: 90px;
   background-color: rgb(33, 32, 32);
@@ -574,7 +576,7 @@ header nav .social ul a {
 }
 .section4 .party .rightSide {
   width: 40%;
-  background-image: url(/assets/img/event-03.jpg);
+  background-image: url(assets/img/event-03.jpg);
   background-position: center;
   background-size: cover;
   padding: 25px;
@@ -591,11 +593,11 @@ header nav .social ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 90px;
   height: 90px;
   background-color: rgb(33, 32, 32);
@@ -654,12 +656,12 @@ header nav .social ul a {
 .section5 .cook2 {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   top: 0;
   left: 50%;
   width: 60px;
   height: 60px;
-  background-image: url(/assets/img/avatar-02.jpg);
+  background-image: url(assets/img/avatar-02.jpg);
   background-position: center;
   background-size: cover;
   margin: auto;
@@ -687,14 +689,14 @@ header nav .social ul a {
   padding-bottom: 70px;
 }
 .section5 .map {
-  background-image: url(/assets/img/gmap.jpg);
+  background-image: url(assets/img/gmap.jpg);
   background-position: center;
   background-size: cover;
   width: 98vw;
   height: 300px;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   z-index: -5;
 }
@@ -727,7 +729,7 @@ footer .resto p:before {
   color: rgb(163, 119, 60);
   font-size: 4rem;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   top: -50px;
   left: 50px;
 }
@@ -741,8 +743,8 @@ footer .contact .news {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: left;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -769,11 +771,11 @@ footer .contact .follow {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 50px 0 20px 60px;
 }
 footer .contact .follow p {
@@ -826,11 +828,11 @@ footer .contact .follow .linkFooter i {
   .section4 .party {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .section4 .party .leftSide {
     width: 80vw;
@@ -900,7 +902,9 @@ footer .contact .follow .linkFooter i {
   .section2 .dishes .row .dish {
     width: 95%;
   }
-  .section2 .dishes .row .dish h4, .section2 .dishes .row .dish p, .section2 .dishes .row .dish .p {
+  .section2 .dishes .row .dish h4,
+  .section2 .dishes .row .dish p,
+  .section2 .dishes .row .dish .p {
     font-size: 1.5rem;
   }
   .section2 .dishes .row .dish img {
@@ -962,4 +966,4 @@ footer .contact .follow .linkFooter i {
   footer .contact .news input {
     width: 180px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
